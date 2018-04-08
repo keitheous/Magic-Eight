@@ -15,12 +15,5 @@ class MagicEightBall
   def initialize(question)
     @question = question
     @response = RandomResponse::RESPONSES.sample
-
-    stringify
-  end
-
-  def stringify
-    puts "Question: #{question}"
-    puts "Answer: #{response}"
   end
 end
