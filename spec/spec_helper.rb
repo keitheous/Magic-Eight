@@ -3,5 +3,5 @@ Rspec.configure do |config|
 
   config.tty = true
 
-  config.formatter = :documentation
+  config.formatter = 'Rainbow'
 end
